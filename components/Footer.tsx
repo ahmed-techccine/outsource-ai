@@ -15,24 +15,26 @@ const Footer: React.FC = () => {
                     {/* Column 1: Contact Info */}
                     <div className="space-y-6">
                         <div className="flex items-start space-x-3">
-                            <img src="https://i.imgur.com/jE61s7O.png" alt="US Flag" className="w-6 mt-1" />
-                            <p className="text-gray-400">30 N Gould St Ste R, Sheridan, WY 82801</p>
+                           
+                            <p className="text-gray-400">5900 Balcones Drive, Suite 15227 Austin, TX 78731, United States</p>
                         </div>
                         <div className="flex items-start space-x-3">
-                            <img src="https://i.imgur.com/bwnPZGy.png" alt="Estonia Flag" className="w-6 mt-1" />
-                            <p className="text-gray-400">Vesivärava tn 50-201, Tallinn, 10152</p>
+                            
+                            <p className="text-gray-400">Office No. 107, 1st Floor, Salem Building Hor Al Anz, Dubai, United Arab Emirates</p>
+                        </div>
+                        <div className="flex items-start space-x-3">
+                            <p className="text-gray-400">Office No. 905, Roshan Trade Centre Bahadurabad, Karachi, Pakistan</p>
                         </div>
                         <div>
-                            <a href="mailto:hi@upsilonit.com" className="font-semibold text-lg hover:text-[#d17700]">hi@upsilonit.com</a>
+                            <a href="mailto:hello@outsourceorigin.com" className="font-semibold text-lg hover:text-[#d17700]">hello@outsourceorigin.com</a>
                         </div>
                         <div>
-                             <a href="tel:+16509955553" className="font-semibold text-lg hover:text-[#d17700]">+1 (650) 995-5553</a>
+                             <a href="tel:+16509955553" className="font-semibold text-lg hover:text-[#d17700]">+1 (408) 365-4638</a>
                         </div>
                         <div className="flex space-x-4 pt-4">
-                            <SocialIcon href="#" iconClass="fab fa-medium-m" />
-                            <SocialIcon href="#" iconClass="fab fa-twitter" />
-                            <SocialIcon href="#" iconClass="fab fa-linkedin-in" />
-                            <SocialIcon href="#" iconClass="fab fa-facebook-f" />
+                            <SocialIcon href="https://x.com/OriginOutsource" iconClass="fab fa-twitter" />
+                            <SocialIcon href="https://www.linkedin.com/company/" iconClass="fab fa-linkedin-in" />
+                            <SocialIcon href="https://www.facebook.com/profile.php?id=61576584994813" iconClass="fab fa-facebook-f" />
                         </div>
                     </div>
 
@@ -78,7 +80,7 @@ const Footer: React.FC = () => {
                 </div>
 
                 <div className="mt-16 pt-8 border-t border-gray-800 flex flex-col sm:flex-row justify-between items-center text-sm text-gray-500">
-                    <p>© 2025 Upsilon LLC. All Rights Reserved</p>
+                    <p>© 2025 Outsource Origin LLC. All Rights Reserved</p>
                     <div className="flex space-x-6 mt-4 sm:mt-0">
                         <a href="#" className="hover:text-white">Privacy Policy</a>
                         <a href="#" className="hover:text-white">Terms of Service</a>

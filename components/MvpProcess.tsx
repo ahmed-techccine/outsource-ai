@@ -94,7 +94,7 @@ const MvpProcess: React.FC = () => {
             PRODUCT DEVELOPMENT SERVICES TO MARKET-TEST YOUR IDEAS
           </h2>
           <p className="mt-6 max-w-3xl text-gray-400">
-            Want to know if your business concept will work in the real world? Building an MVP is the way to do it. At Upsilon, we offer specialized services to help startups bring their ideas to life, test them out in the market, and conquer first clients without budget overruns.
+            Want to know if your business concept will work in the real world? Building an MVP is the way to do it. At Outsource Origin, we offer specialized services to help startups bring their ideas to life, test them out in the market, and conquer first clients without budget overruns.
           </p>
         </div>
 

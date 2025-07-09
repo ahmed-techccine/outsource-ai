@@ -4,7 +4,7 @@ const processSteps = [
   {
     id: 1,
     title: 'Problem Definition and Business Analysis',
-    content: 'At Upsilon, we start with defining the problem the product will solve and defining goals and objectives. We allocate a team of AI and product experts early on to identify the business needs, conduct market research, and analyze existing data.',
+    content: 'At Outsource Origin, we start with defining the problem the product will solve and defining goals and objectives. We allocate a team of AI and product experts early on to identify the business needs, conduct market research, and analyze existing data.',
   },
   {
     id: 2,

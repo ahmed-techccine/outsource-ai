@@ -52,7 +52,7 @@ const Services: React.FC = () => {
           <div className="lg:col-span-1 lg:sticky lg:top-28 h-fit">
               <h2 className="text-3xl md:text-4xl font-bold text-black uppercase font-mono">Generative AI Development Services We Provide</h2>
               <p className="mt-4 text-gray-500">
-                Dreaming of a seamless journey from your idea to a cutting-edge AI solution, turning tech trends into tangible business benefits? Think Upsilon.
+                Dreaming of a seamless journey from your idea to a cutting-edge AI solution, turning tech trends into tangible business benefits? Think Outsource Origin.
               </p>
           </div>
           <div className="mt-12 lg:mt-0 lg:col-span-2">

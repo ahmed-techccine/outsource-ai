@@ -49,7 +49,7 @@ const Testimonials: React.FC = () => {
     return (
         <section className="bg-[#F7F7F7] py-16 sm:py-24">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h3 className="text-center text-2xl font-bold text-black uppercase font-mono mb-12">These companies trust upsilon</h3>
+                <h3 className="text-center text-2xl font-bold text-black uppercase font-mono mb-12">These companies trust Outsource Origin</h3>
                 <div className="flex flex-wrap items-center justify-center gap-x-12 gap-y-8 sm:gap-x-20">
                      {trustLogos.map(company => (
                          <img key={company.name} src={company.logo} alt={company.name} className="h-6 lg:h-8 object-contain" />
