@@ -3,7 +3,7 @@ import React from 'react';
 
 const SparkleIcon: React.FC = () => (
     <img
-        src="star.webp"
+        src="/star.webp"
         alt="Sparkle"
         className="w-14 h-12 inline-block mx-2 animate-pulse"
         style={{ filter: 'drop-shadow(0 0 5px #ff8fab)' }}  
@@ -12,7 +12,7 @@ const SparkleIcon: React.FC = () => (
 
 const BrainIcon: React.FC = () => (
     <img
-        src="brain.webp"
+        src="/brain.webp"
         alt="Brain"
         className="w-14 h-12 inline-block mx-2 animate-pulse"
         style={{ filter: 'drop-shadow(0 0 5px #ff8fab)' }}  
