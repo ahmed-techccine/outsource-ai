@@ -2,10 +2,10 @@
 import React, { useState } from 'react';
 
 const trustLogos = [
-    { name: 'ThoughtSpot', logo: 'https://i.imgur.com/J3yv7m9.png' },
-    { name: 'LiveArt', logo: 'https://i.imgur.com/g0nBiE9.png' },
-    { name: 'CARGGO', logo: 'https://i.imgur.com/f9aWkYx.png' },
-    { name: 'COLTECTRIUM', logo: 'https://i.imgur.com/QhS6jXC.png' },
+    { name: 'ThoughtSpot', logo: 'https://cdn.prod.website-files.com/633438ac0ff91a5041d3188b/65c28d2e376abb9796bb0e86_thoughtspot-black-p-500.png' },
+    { name: 'LiveArt', logo: 'https://cdn.prod.website-files.com/633438ac0ff91a5041d3188b/65c28d2e4494320ff7980995_liveart-black.webp' },
+    { name: 'CARGGO', logo: 'https://cdn.prod.website-files.com/633438ac0ff91a5041d3188b/65c28d2e7c21b28b7ad3201a_carggo-black.webp' },
+    { name: 'COLTECTRIUM', logo: 'https://cdn.prod.website-files.com/633438ac0ff91a5041d3188b/65c28d2ed0c27de672c28adc_collectrium-black-p-500.png' },
 ];
 
 const testimonialsData = [
@@ -13,15 +13,15 @@ const testimonialsData = [
         quote: "They've been LiveArt's partners since our launch, growing with us from a handful of team members to over 20 cross-functional developers.",
         name: "David Letourneau",
         title: "COO at LiveArt",
-        avatar: "https://i.imgur.com/jM4d2tG.jpeg",
-        image: "https://i.imgur.com/eOBw22d.png",
+        avatar: "https://cdn.prod.website-files.com/633438ac0ff91a5041d3188b/65c233f05954deaa9920a59e_paul-n.webp",
+        image: "testimonials.webp",
     },
     {
         quote: "We were excited to have a partner with strong coding skills who compiled everything according to the tech specifications.",
         name: "Kenny R. Lienhard",
         title: "CTO, Medignition Inc",
-        avatar: "https://i.imgur.com/w2C4eYm.jpeg",
-        image: "https://i.imgur.com/1vYqKxL.png",
+        avatar: "https://cdn.prod.website-files.com/633438ac0ff91a5041d3188b/65c233f01e8f5b26d26d36c7_kenny-n.webp",
+        image: "https://cdn.prod.website-files.com/633438ac0ff91a5041d3188b/65c297f07aaa19be527a5bbd_kenny-n-image-grey-p-500.webp",
     },
 ];
 
@@ -71,14 +71,10 @@ const Testimonials: React.FC = () => {
                                 <p className="text-base text-gray-500">{currentTestimonial.title}</p>
                             </div>
                         </div>
-                        <div className="mt-8 text-gray-500">
-                            Read more in-depth and verified client reviews:
-                            <img src="https://i.imgur.com/O6L4V6E.png" alt="GoodFirms" className="h-6 mt-2" />
-                        </div>
                     </div>
                     <div className="mt-12 lg:mt-0 relative">
                         <div className="relative p-2 bg-white rounded-3xl -rotate-3">
-                           <div className="absolute inset-0 border-2 border-dashed border-gray-300 rounded-3xl rotate-6"></div>
+                           {/* <div className="absolute inset-0 border-2 border-dashed border-gray-300 rounded-3xl rotate-6"></div> */}
                            <img src={currentTestimonial.image} alt="Testimonial visual" className="rounded-2xl w-full h-auto relative z-10" />
                         </div>
                         <div className="absolute -bottom-6 right-6 flex space-x-4">

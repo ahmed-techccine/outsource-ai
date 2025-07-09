@@ -15,10 +15,7 @@ const Header: React.FC = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-24">
                     <div className="flex-shrink-0">
-                        <a href="#" className="text-white text-2xl font-bold flex items-center font-mono">
-                            <span className="text-[#F5FE34] text-4xl mr-1">*</span>
-                            upsilon
-                        </a>
+                        <img className="h-10 w-auto" src="logo.png" alt="Logo" />
                     </div>
                     <nav className="hidden md:block">
                         <div className="ml-10 flex items-baseline space-x-8">
@@ -29,7 +26,7 @@ const Header: React.FC = () => {
                         </div>
                     </nav>
                     <div className="hidden md:flex items-center space-x-4">
-                      <a href="#" className="bg-[#F5FE34] text-black px-6 py-3 font-semibold rounded-md hover:bg-yellow-400 transition">Get in touch</a>
+                      <a href="#" className="bg-[#d17700] text-black px-6 py-3 font-semibold rounded-md hover:bg-yellow-400 transition">Get in touch</a>
                       <button className="text-white p-2 rounded-full border-2 border-gray-600 w-12 h-12 flex items-center justify-center">
                         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M4 6h16M4 12h16"></path></svg>
                       </button>
@@ -57,7 +54,7 @@ const Header: React.FC = () => {
                         <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Products</a>
                         <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Pricing</a>
                         <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Company</a>
-                        <a href="#" className="bg-[#F5FE34] text-black block text-center mt-4 mx-2 px-6 py-3 font-semibold rounded-md hover:bg-yellow-400 transition">Get in touch</a>
+                        <a href="#" className="bg-[#d17700] text-black block text-center mt-4 mx-2 px-6 py-3 font-semibold rounded-md hover:bg-yellow-400 transition">Get in touch</a>
                     </div>
                 </div>
             )}

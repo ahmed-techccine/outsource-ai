@@ -6,7 +6,7 @@ import Stats from './components/Stats';
 import Services from './components/Services';
 import Process from './components/Process';
 import Solutions from './components/Solutions';
-import CaseStudies from './components/CaseStudies';
+import MvpProcess from './components/MvpProcess';
 import TechStack from './components/TechStack';
 import Testimonials from './components/Testimonials';
 import RelatedContent from './components/RelatedContent';
@@ -26,15 +26,10 @@ const App: React.FC = () => {
         <div className="bg-[#F7F7F7] text-black">
           <Solutions />
         </div>
-        <div className="bg-white text-black">
-          <CaseStudies />
-        </div>
+        <MvpProcess />
         <div className="bg-[#F7F7F7] text-black">
           <TechStack />
           <Testimonials />
-        </div>
-        <div className="bg-white text-black">
-            <RelatedContent />
         </div>
       </main>
       <Footer />

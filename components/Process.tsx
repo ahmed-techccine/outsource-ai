@@ -115,7 +115,7 @@ const Process: React.FC = () => {
                                     onClick={() => handleStepClick(step.id)}
                                     className={`relative z-10 w-12 h-12 rounded-full flex items-center justify-center font-bold text-lg transition-all duration-300 border-2 ${
                                         isActive
-                                            ? 'bg-[#F5FE34] text-black border-[#F5FE34] scale-110'
+                                            ? 'bg-[#d17700] text-black border-[#d17700] scale-110'
                                             : 'bg-gray-800 text-white border-gray-600 hover:bg-gray-700'
                                     }`}
                                 >
@@ -129,7 +129,7 @@ const Process: React.FC = () => {
         </div>
         
         <div className="pb-16 text-center">
-            <a href="#" className="bg-[#F5FE34] text-black px-8 py-4 font-semibold rounded-md hover:bg-yellow-400 transition text-lg">
+            <a href="#" className="bg-[#d17700] text-black px-8 py-4 font-semibold rounded-md hover:bg-yellow-400 transition text-lg">
               Let's talk
             </a>
         </div>

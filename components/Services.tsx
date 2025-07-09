@@ -34,7 +34,7 @@ const phases: ServicePhase[] = [
 
 const ServiceCard: React.FC<{ phase: ServicePhase }> = ({ phase }) => (
   <div className="bg-white rounded-2xl p-6 text-black border border-gray-200">
-    <h3 className="text-xl font-bold mb-3 flex items-center">{phase.icon && <span className="mr-3 text-[#F5FE34] bg-black rounded-full w-8 h-8 flex items-center justify-center font-mono">{phase.icon}</span>}{phase.title}</h3>
+    <h3 className="text-xl font-bold mb-3 flex items-center">{phase.icon && <span className="mr-3 text-[#d17700] bg-black rounded-full w-8 h-8 flex items-center justify-center font-mono">{phase.icon}</span>}{phase.title}</h3>
     <p className="text-gray-600 mb-4 text-sm">{phase.description}</p>
     <div className="flex flex-wrap gap-2">
       {phase.tags.map(tag => (
@@ -56,7 +56,7 @@ const Services: React.FC = () => {
               </p>
           </div>
           <div className="mt-12 lg:mt-0 lg:col-span-2">
-            <div className="bg-[#F5FE34] p-4 sm:p-8 rounded-3xl">
+            <div className="bg-[#d17700] p-4 sm:p-8 rounded-3xl">
               <div className="space-y-8">
                 {phases.map((phase, index) => (
                   <ServiceCard key={index} phase={phase} />
@@ -64,7 +64,7 @@ const Services: React.FC = () => {
                  <div className="bg-white rounded-2xl p-6 text-black border border-gray-200 text-left relative">
                     <h3 className="text-xl font-bold mb-3 max-w-sm">We are here to turn your AI needs into breakthroughs. Just let us know what's on your mind.</h3>
                     <div className="relative mt-6 inline-block">
-                      <a href="#" className="inline-block bg-[#F5FE34] text-black px-6 py-3 font-semibold rounded-md border border-black hover:bg-yellow-400 transition">
+                      <a href="#" className="inline-block bg-[#d17700] text-black px-6 py-3 font-semibold rounded-md border border-black hover:bg-yellow-400 transition">
                           Let's talk
                       </a>
                       <div className="absolute -bottom-2 -right-24 hidden md:block">

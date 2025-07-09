@@ -23,10 +23,10 @@ const Footer: React.FC = () => {
                             <p className="text-gray-400">Vesivärava tn 50-201, Tallinn, 10152</p>
                         </div>
                         <div>
-                            <a href="mailto:hi@upsilonit.com" className="font-semibold text-lg hover:text-[#F5FE34]">hi@upsilonit.com</a>
+                            <a href="mailto:hi@upsilonit.com" className="font-semibold text-lg hover:text-[#d17700]">hi@upsilonit.com</a>
                         </div>
                         <div>
-                             <a href="tel:+16509955553" className="font-semibold text-lg hover:text-[#F5FE34]">+1 (650) 995-5553</a>
+                             <a href="tel:+16509955553" className="font-semibold text-lg hover:text-[#d17700]">+1 (650) 995-5553</a>
                         </div>
                         <div className="flex space-x-4 pt-4">
                             <SocialIcon href="#" iconClass="fab fa-medium-m" />
@@ -67,12 +67,12 @@ const Footer: React.FC = () => {
                             </ul>
                         </div>
                          <div>
-                             <h3 className="text-white font-bold text-lg mb-4 hover:text-[#F5FE34] cursor-pointer">Case studies</h3>
-                             <h3 className="text-white font-bold text-lg mt-8 mb-4 hover:text-[#F5FE34] cursor-pointer">Resources</h3>
-                             <h3 className="text-white font-bold text-lg mt-8 mb-4 hover:text-[#F5FE34] cursor-pointer">Insights</h3>
-                             <h3 className="text-white font-bold text-lg mt-8 mb-4 hover:text-[#F5FE34] cursor-pointer">Best startup tools</h3>
-                             <h3 className="text-white font-bold text-lg mt-8 mb-4 hover:text-[#F5FE34] cursor-pointer">Startup FAQs</h3>
-                             <h3 className="text-white font-bold text-lg mt-8 mb-4 hover:text-[#F5FE34] cursor-pointer">Contact us</h3>
+                             <h3 className="text-white font-bold text-lg mb-4 hover:text-[#d17700] cursor-pointer">Case studies</h3>
+                             <h3 className="text-white font-bold text-lg mt-8 mb-4 hover:text-[#d17700] cursor-pointer">Resources</h3>
+                             <h3 className="text-white font-bold text-lg mt-8 mb-4 hover:text-[#d17700] cursor-pointer">Insights</h3>
+                             <h3 className="text-white font-bold text-lg mt-8 mb-4 hover:text-[#d17700] cursor-pointer">Best startup tools</h3>
+                             <h3 className="text-white font-bold text-lg mt-8 mb-4 hover:text-[#d17700] cursor-pointer">Startup FAQs</h3>
+                             <h3 className="text-white font-bold text-lg mt-8 mb-4 hover:text-[#d17700] cursor-pointer">Contact us</h3>
                         </div>
                     </div>
                 </div>

@@ -117,7 +117,7 @@ const Solutions: React.FC = () => {
         </div>
         <div className="mt-12 text-center">
             <p className="text-gray-600 mb-6">These are our core focus areas—but AI can do so much more. We're always excited to tackle fresh challenges and create something amazing.</p>
-             <a href="#" className="bg-[#F5FE34] text-black px-8 py-4 font-semibold rounded-md border border-black hover:bg-yellow-400 transition text-lg">
+             <a href="#" className="bg-[#d17700] text-black px-8 py-4 font-semibold rounded-md border border-black hover:bg-yellow-400 transition text-lg">
                 Get a quote
             </a>
         </div>
