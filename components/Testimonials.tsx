@@ -14,7 +14,7 @@ const testimonialsData = [
         name: "David Letourneau",
         title: "COO at LiveArt",
         avatar: "https://cdn.prod.website-files.com/633438ac0ff91a5041d3188b/65c233f05954deaa9920a59e_paul-n.webp",
-        image: "testimonials.webp",
+        image: "/testimonials.webp",
     },
     {
         quote: "We were excited to have a partner with strong coding skills who compiled everything according to the tech specifications.",
